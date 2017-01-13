@@ -58,7 +58,7 @@
 这个组件必须要有滚动条才可以
 
 ## 自定义动画
-组件默认提供了`normal`和`basketball`两种加载动画，也可以自己定义动画，如例子中通过slot将内容分发到组件中
+组件默认提供了`normal`、`basketball`、`football`三种加载动画，也可以自己定义动画，如例子中通过slot将内容分发到组件中
 
 ```html
 <scroll-load class="list-scroll" :dropType="dropType" @loadMore="onListLoadMore" @loadMoreUp="onListLoadMoreUp">
@@ -76,3 +76,12 @@
 参数 | 说明 | 类型 | 可选值 | 默认值
 ------- | ------- | ------- | ------- | -------
 dropType | 下拉动画 | String | 'normal'/'basketball'/'football'  | 'normal'
+
+## 例子
+
+<p align="center">
+  <br>
+  <img width="400" src="https://rawgit.com/baofengsports/vue-scroll-load/master/demo.png" alt="awesome">
+  <br>
+  <br>
+</p>
