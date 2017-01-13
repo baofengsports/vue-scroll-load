@@ -77,6 +77,13 @@
 ------- | ------- | ------- | ------- | -------
 dropType | 下拉动画 | String | 'normal'/'basketball'/'football'  | 'normal'
 
+## 事件
+参数 | 说明 | 
+------- | ------- |
+loadMoreUp | 下拉刷新触发的事件 | 
+loadMore | 上拉刷新触发的事件 | 
+
+
 ## 例子
 
 <p align="center">
